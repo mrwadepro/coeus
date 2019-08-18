@@ -1,3 +1,22 @@
+## Steps to follow for first setup/run
+
+1. Install a git GUI such as GitKraken (https://www.gitkraken.com/)
+2. Signin and link your github account to GitKraken
+3. Clone the repo:
+    a) File -> Clone Repo
+    b) Clone with URL
+    c) go to github.come and click 'Clone or download'
+    d) copy repo URL
+    e) Within GitKraken, click 'Browse' and select a location (This is where all the files will be stored.)
+    f) Paste the URL you copied from github.com into the URL field in GitKraken and Click 'Clone the repo!'
+4. Download and install an IDE such as Visual Studio Code (https://code.visualstudio.com/)
+5. Within VS Code, File -> Open Folder -> Open the folder in the location you cloned the repo to in step 3e
+6. Open terminal by going to View -> Terminal
+7. Type 'npm install' into terminal and wait for install to complete.
+8. Start the project by running 'npm start' in termnial 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
