@@ -3,7 +3,7 @@
 1. Install a git GUI such as GitKraken (https://www.gitkraken.com/)
 2. Signin and link your github account to GitKraken
 3. Clone the repo:
-    1. File -> Clone Repo
+    1. File ▶ Clone Repo
     1. Clone with URL
     1. Go to github.come and click 'Clone or download'
     1. Copy repo URL
