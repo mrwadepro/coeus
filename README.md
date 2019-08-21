@@ -3,12 +3,12 @@
 1. Install a git GUI such as GitKraken (https://www.gitkraken.com/)
 2. Signin and link your github account to GitKraken
 3. Clone the repo:
-    a) File -> Clone Repo
-    b) Clone with URL
-    c) go to github.come and click 'Clone or download'
-    d) copy repo URL
-    e) Within GitKraken, click 'Browse' and select a location (This is where all the files will be stored.)
-    f) Paste the URL you copied from github.com into the URL field in GitKraken and Click 'Clone the repo!'
+    1. File -> Clone Repo
+    1. Clone with URL
+    1. go to github.come and click 'Clone or download'
+    1. copy repo URL
+    1. Within GitKraken, click 'Browse' and select a location (This is where all the files will be stored.)
+    1. Paste the URL you copied from github.com into the URL field in GitKraken and Click 'Clone the repo!'
 4. Download and install an IDE such as Visual Studio Code (https://code.visualstudio.com/)
 5. Within VS Code, File -> Open Folder -> Open the folder in the location you cloned the repo to in step 3e
 6. Open terminal by going to View -> Terminal
