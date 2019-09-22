@@ -43,6 +43,9 @@ import Place from "@material-ui/icons/Place";
 import Timeline from "@material-ui/icons/Timeline";
 import WidgetsIcon from "@material-ui/icons/Widgets";
 
+// gameIcons
+import LeagueIcon from "./assets/img/LeagueIcon.ico"
+
 var dashRoutes = [
   {
     path: "/dashboard",
@@ -54,7 +57,7 @@ var dashRoutes = [
   },
   {
     path: "/League",
-    name: "League",
+    name: "League of Legends",
     icon: Apps,
     component: League,
     layout: "/admin"
