@@ -3,6 +3,10 @@ import Buttons from "views/Components/Buttons.jsx";
 import Calendar from "views/Calendar/Calendar.jsx";
 import Charts from "views/Charts/Charts.jsx";
 import Dashboard from "views/Dashboard/Dashboard.jsx";
+import League from "views/Games/League.jsx"
+import Overwatch from "views/Games/Overwatch.jsx"
+import Apex from "views/Games/Apex.jsx"
+import CallofDuty from "views/Games/CallofDuty.jsx"
 import ErrorPage from "views/Pages/ErrorPage.jsx";
 import ExtendedForms from "views/Forms/ExtendedForms.jsx";
 import ExtendedTables from "views/Tables/ExtendedTables.jsx";
@@ -49,8 +53,37 @@ var dashRoutes = [
     layout: "/admin"
   },
   {
+    path: "/League",
+    name: "League",
+    icon: Apps,
+    component: League,
+    layout: "/admin"
+  },
+  {
+    path: "/Overwatch",
+    name: "Overwatch",
+    icon: Apps,
+    component: Overwatch,
+    layout: "/admin"
+  },
+  {
+    path: "/Apex",
+    name: "Apex",
+    icon: Apps,
+    component: Apex,
+    layout: "/admin"
+  },
+  {
+    path: "/CallofDuty",
+    name: "Call of Duty",
+    icon: Apps,
+    component: CallofDuty,
+    layout: "/admin"
+  },
+  
+  {
     collapse: true,
-    name: "Pages",
+    name: "Other Junk",
     rtlName: "صفحات",
     icon: Image,
     state: "pageCollapse",
@@ -126,10 +159,8 @@ var dashRoutes = [
         rtlMini: "البريد",
         component: ErrorPage,
         layout: "/auth"
-      }
-    ]
-  },
-  {
+      },
+      {
     collapse: true,
     name: "Components",
     rtlName: "المكونات",
@@ -361,5 +392,8 @@ var dashRoutes = [
     component: Calendar,
     layout: "/admin"
   }
+    ]
+  }
+  
 ];
 export default dashRoutes;
