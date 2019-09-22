@@ -15,6 +15,12 @@
 7. Type 'npm install' into terminal and wait for install to complete.
 8. Start the project by running 'npm start' in termnial 
 
+## Backend installs
+1. npm install express cors mongoose dotenv
+## sudo install -g nodemon might be needed to override permissions
+2. npm install -g nodemon
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -22,7 +28,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 ### 'nodemon server'
-runs server to connect to mongodb
+runs server to connect to mongodb (be sure you are in /backend directory)
 
 In the project directory, you can run:
 
