@@ -10,6 +10,7 @@ import Assignment from "@material-ui/icons/Assignment";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Table from "components/Table/Table.jsx";
+import SummonerList from "components/SummonerList.jsx";
 import Card from "components/Card/Card.jsx";
 import CardHeader from "components/Card/CardHeader.jsx";
 import CardIcon from "components/Card/CardIcon.jsx";
@@ -46,6 +47,8 @@ function League({ ...props }) {
   const { classes } = props;
   return (
     <div>
+      <SummonerList>
+        </SummonerList>
         <GridContainer justify="center">
             <GridItem xs={12} sm={12} md={6}>
             <h2 className={classes.title}>FigTheBeast</h2>
