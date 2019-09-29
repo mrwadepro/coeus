@@ -1,12 +1,11 @@
 const router = require('express').Router();
 let Summoner = require('../models/League/summoner.model');
 const axios = require('axios');
-const api_key = 'RGAPI-c8c55742-bae0-47b5-a75b-be2e23a0c8e7'
+require('dotenv').config();
 
 router.route('/findsummoner').post((req, res) => {
     var URL = 'https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/' + 
-    req.body.summonername + '?api_key=' + api_key;
-    console.log(URL);
+    req.body.summonername + '?api_key=' + process.env.API_KEY;
     axios.get(URL,
         {
             headers: {"Access-Control-Allow-Origin": "*"}
@@ -34,7 +33,7 @@ router.route('/findsummoner').post((req, res) => {
             }
         })
     })
-    .catch(err => console.log('uh oh'));
+    .catch(err => res.status(400).json('Error: ' + err));
     res.json('Done.');
 });
 
