@@ -3,31 +3,45 @@
 1. Install a git GUI such as GitKraken (https://www.gitkraken.com/)
 2. Signin and link your github account to GitKraken
 3. Clone the repo:
-    1. File -> Clone Repo
-    1. Clone with URL
-    1. Go to github.come and click 'Clone or download'
-    1. Copy repo URL
-    1. Within GitKraken, click 'Browse' and select a location (This is where all the files will be stored.)
-    1. Paste the URL you copied from github.com into the URL field in GitKraken and Click 'Clone the repo!'
+   1. File -> Clone Repo
+   1. Clone with URL
+   1. Go to github.come and click 'Clone or download'
+   1. Copy repo URL
+   1. Within GitKraken, click 'Browse' and select a location (This is where all the files will be stored.)
+   1. Paste the URL you copied from github.com into the URL field in GitKraken and Click 'Clone the repo!'
 4. Download and install an IDE such as Visual Studio Code (https://code.visualstudio.com/)
 5. Within VS Code, File -> Open Folder -> Open the folder in the location you cloned the repo to in step 3e
 6. Open terminal by going to View -> Terminal
 7. Type 'npm install' into terminal and wait for install to complete.
-8. Start the project by running 'npm start' in termnial 
+8. Start the project by running 'npm start' in termnial
 
 ## Backend installs
+
 1. npm install express cors mongoose dotenv
+
 ## sudo install -g nodemon might be needed to override permissions
+
 2. npm install -g nodemon
 
+## Database
 
+Mongo Db Altlas cluster (Contact Fig for db access)
+https://cloud.mongodb.com/
 
+## Riot development API
+
+https://developer.riotgames.com/
+
+## Call of Duty Modern Warfare API
+
+https://documenter.getpostman.com/view/7896975/SW7aXSo5?version=latest
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 ### 'nodemon server'
+
 runs server to connect to mongodb (be sure you are in /backend directory)
 
 In the project directory, you can run:
